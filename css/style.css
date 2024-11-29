@@ -1,0 +1,154 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* inicio */
+.container_logo{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-inner{
+    height: 120vh;
+    width: 100vh;
+    margin-left: 20%;
+    padding-bottom: 830px;
+}
+/* inicio */
+
+/* perfil */
+.perfil {
+    width:100% ;
+    height: 110vh;
+    padding: 30px;
+    color: aliceblue;
+    font-size: 30px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.img-fluid {
+    height: 110vh;
+    padding-top: 20px;
+}
+
+.card-text{
+    margin-top: 5%;
+    padding: 10%;
+}
+/* perfil */
+
+/* meus projeto */
+.text-center{
+    font-size: 40px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    padding-top: 10%;
+}
+
+.card{
+    padding: 20px;
+    height: 80vh;
+    background-color: black;
+    color: aliceblue;
+}
+
+.card:hover{
+    border-color: aliceblue;
+    transform: translateY(10px);
+    transition: 2s;
+}
+/* meus projeto */
+
+/* icones */
+.icones{
+
+    font-size: 300px;
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+}
+
+.icones a{
+    color: antiquewhite;
+}
+
+.icones :hover{
+    transform: translatey(30px);
+    transition: 1s;
+}
+/* icones */
+
+/* formulario */
+
+.container_contato{
+    border: 2px solid ;
+    border-color: aliceblue;
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    margin-top: 100px;
+}
+
+#dados{
+    color: aliceblue;
+    font-size: 25px;
+    margin: 2% 22%;
+}
+
+
+#dados, input{
+    width: 50%;
+    padding-left: 40px;
+}
+
+#btn{
+    color: aliceblue;
+    background-color: black;
+    border-color: aliceblue;
+    font-size: 25px;
+    margin: 2% 42%;
+    width: 15%;
+    padding-left: 0;
+}
+
+#btn :hover{
+    transform: translateY(10px);
+    transition: 2s;
+    background-color: aliceblue;
+}
+
+/* formulario */
+
+/* rodape */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+}
+footer a {
+    color: #FFD700;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+/* rodape */
