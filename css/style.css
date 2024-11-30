@@ -31,7 +31,7 @@ body{
     height: 110vh;
     padding: 30px;
     color: aliceblue;
-    font-size: 30px;
+    font-size: 10px;
     padding-top: 10px;
     display: flex;
     justify-content: space-around;
@@ -43,19 +43,19 @@ body{
 }
 
 .card-text{
-    margin-top: 2%;
-    padding: 1%;
+    margin-top: 5%;
+    padding: 10%;
 }
 /* perfil */
 
 /* meus projeto */
 .text-center{
-    font-size: 30px;
+    font-size: 40px;
     color: aliceblue;
     display: flex;
     justify-content: center;
     padding: 60px;
-    padding-top: 1%;
+    padding-top: 10%;
 }
 
 .card{
