@@ -31,7 +31,7 @@ body{
     height: 110vh;
     padding: 30px;
     color: aliceblue;
-    font-size: 8px;
+    font-size: 80px;
     padding-top: 10px;
     display: flex;
     justify-content: space-around;
@@ -75,7 +75,7 @@ body{
 /* icones */
 .icones{
 
-    font-size: 30px;
+    font-size: 150px;
     margin: 60px;
     display: flex;
     justify-content: center;
